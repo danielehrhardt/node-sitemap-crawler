@@ -1,0 +1,19 @@
+{
+  "name": "sitemap-crawler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scrape": "ts-node src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/jsdom": "^21.1.7",
+    "axios": "^1.7.2",
+    "jsdom": "^24.1.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
